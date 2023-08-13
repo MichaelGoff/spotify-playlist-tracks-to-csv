@@ -1,0 +1,24 @@
+{
+  "name": "spotify-playlist-tracks-to-csv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=7.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MichaelGoff",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "objects-to-csv": "^1.3.6"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.1"
+  }
+}
